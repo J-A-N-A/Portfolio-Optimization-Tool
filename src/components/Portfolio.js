@@ -1,6 +1,3 @@
-import Plot from 'react-plotly.js';
-import Plotly from 'plotly.js-dist-min';
-import { Table } from 'react-bootstrap';
 import Performance from './Performance';
 import Optimal from './Optimalassest';
 import Ratio from './Ratio';

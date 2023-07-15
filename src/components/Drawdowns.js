@@ -4,9 +4,9 @@ import {useState} from 'react';
 
 function Drawdowns(props){
     
-    const [xdata, setxdata] = useState(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']);
-    const [ydata, setydata] = useState([34,90,10,20,10,30,30,10,22,33,46,10]);
-    const [ydata2, setydata2] = useState([10,50,60,70,18,19,90,1,92,3,40,5]);
+    const [xdata] = useState(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']);
+    const [ydata] = useState([34,90,10,20,10,30,30,10,22,33,46,10]);
+    const [ydata2] = useState([10,50,60,70,18,19,90,1,92,3,40,5]);
    
     return(
         <div className="performance">

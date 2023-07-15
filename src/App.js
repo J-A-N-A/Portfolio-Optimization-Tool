@@ -1,7 +1,6 @@
 import './App.css';
 import Op from './components/Optimizationsettings';
 import Portfolio from './components/Portfolio';
-import Performance from './components/Performance';
 import SelectP from './components/SelectP';
 import Add from './components/Add';
 function App() {
